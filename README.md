@@ -7,3 +7,5 @@ url = 'url of the webpage' #to caputre url#
 response.status_code #it will check the if it is imported successfully (will give 200 as output if done so)#
 data = requests.json(url) #decoding the encoded and imported data#
 df = pd.json_normalize(data) #to put that into pandas format#
+
+launch_dict = pd.DataFrame(launch_dict) #dictionary to DataFrame#
